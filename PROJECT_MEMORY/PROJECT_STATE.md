@@ -6,20 +6,21 @@
 - **Location:** 61-1-33, Main Road, opp. HPCL Main Gate, near to Union Bank of India, Ramakrishnapuram, Malkapuram, Visakhapatnam, Andhra Pradesh 530011
 - **Landmarks:** Opposite HPCL Main Gate, Near Union Bank of India, Malkapuram Post Office
 - **Plus Code:** M6QR+HX Visakhapatnam, Andhra Pradesh
-- **Phone:** 087909 72042 (+91 87909 72042)
-- **Lead Doctor:** Dr. Harish Patnaik
+- **Phone:** 087909 72042 (Primary) · 098859 49671 (Secondary / WhatsApp)
+- **Consultant Doctors:**
+  1. Dr. K. Hareesh Patnaik — DPT, BPT, MS (Sports Medicine), MIAP Cupping, Ortho Manual, Dry Needling, Kinesio Taping, tDCS
+  2. Dr. K.V.V. Reshma Patnaik — BPT, MPT (CARDIO), Orthopaedic Manual Therapist, Cardio-Respiratory Specialist
 - **Google Rating:** 5.0 ★ (192 verified Google reviews)
 - **Primary Specializations:** Back Pain, Knee & Meniscus Care, Sports Injuries, Stroke & Neuro Rehab / Paralysis Recovery, Post-Surgery Rehabilitation (TKR), In-Home Physiotherapy
 - **Repository Path:** `c:\Users\user\Desktop\Projects\care-and-cure-physiotherapy`
+- **GitHub Repository:** `https://github.com/lunacoderl/care-cure-physiotherapy-clinic.git`
 
 ## Technology Stack
-- **Framework:** Next.js (App Router, Static Generation, TypeScript)
-- **Styling:** Tailwind CSS with custom medical theme palette
-- **Icons:** Lucide React + custom inline medical SVG icons
-- **State & Animations:** Motion / Framer Motion, Vanilla accessible interactive components
-- **Deployment Target:** Vercel (Production ready)
+- **Framework:** Next.js 16 (App Router, Static Generation, TypeScript, React 19)
+- **Styling:** Tailwind CSS v4 with custom medical theme palette
+- **Icons:** Lucide React
+- **Deployment Target:** Vercel (Production ready with `vercel.json` security headers and image caching)
 - **Compliance:** WCAG 2.2 AA accessible, India DPDP Act 2023 compliant privacy policy, Schema.org MedicalClinic structured data.
 
 ## Current Stage
-Phase 1: Project Scaffolding & Core Architecture Setup.
-Images will be provided later by client (no AI generated images used; clean SVGs and aspect-ratio placeholders implemented).
+Completed & Production Ready. All 17 static routes verified and pushed to GitHub `main` branch.
