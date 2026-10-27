@@ -4,6 +4,40 @@ All notable changes to the "Care And Cure Physiotherapy And Sports Injury Clinic
 
 ---
 
+## [2026-10-27] — Real Doctor Portraits, Authentic Clinic Favicon & Fullscreen Desktop/Mobile Hero
+
+### Task
+Add real portrait images for senior consultants (Dr. K. Hareesh Patnaik & Dr. K. Reshma Harish), create authentic clinic vector favicon, implement edge-to-edge fullscreen desktop hero banner without text/card overlap, and implement natural vertical aspect mobile hero banner.
+
+### Result
+- Added real doctor portraits with Andhra Pradesh registration numbers (APF 0318 & APF 0619) into `public/images/doctors/` and updated `AboutSection.tsx`, `GalleryGrid.tsx`, and `content/site.ts`.
+- Created official clinic favicon SVG (`public/icon.svg` & `app/icon.svg`) and integrated into metadata, `Navbar.tsx`, and `Footer.tsx`.
+- Integrated `hero-bg-desktop.png` (1983x793) as edge-to-edge fullscreen desktop banner with 0% text overlapping.
+- Integrated `hero-bg-mobile.png` (941x1255) as high-clarity vertical mobile banner with zero obstruction.
+- All interactive CTAs (WhatsApp, phone calls, live hours, Google 5.0 badge, Body Map) cleanly aligned below the hero banners.
+- Production build verified: 18/18 static pages successfully prerendered with Turbopack.
+
+### Files Created
+- `public/images/doctors/dr-hareesh-patnaik.png` — Real portrait of Dr. K. Hareesh Patnaik
+- `public/images/doctors/dr-reshma-patnaik.png` — Real portrait of Dr. K. Reshma Harish
+- `public/gallery/dr-hareesh-patnaik.png` — Gallery copy for lightbox
+- `public/gallery/dr-reshma-patnaik.png` — Gallery copy for lightbox
+- `public/gallery/hero-bg-desktop.png` — High-resolution desktop hero banner (1983x793)
+- `public/gallery/hero-bg-mobile.png` — High-resolution mobile hero banner (941x1255)
+- `public/icon.svg` — Clinic brand favicon SVG (active runner & healing arc)
+- `app/icon.svg` — Next.js App Router dynamic icon
+
+### Files Modified
+- `content/site.ts` — Updated senior doctors credentials, registration numbers, and photo paths
+- `components/home/Hero.tsx` — Fullscreen desktop banner & mobile banner with separated conversion bar
+- `components/home/AboutSection.tsx` — Real portrait photo cards for both doctors
+- `components/home/GalleryGrid.tsx` — Doctor portraits and clinic overview banner in lightbox gallery
+- `components/layout/Navbar.tsx` — Authentic clinic favicon in desktop and mobile drawer headers
+- `components/layout/Footer.tsx` — Authentic clinic favicon in brand column
+- `app/layout.tsx` — Favicon metadata linking `/icon.svg` and `/favicon.ico`
+
+---
+
 ## [2026-10-26] — Initial Project Memory & Setup Initialization
 
 ### Task

@@ -36,4 +36,11 @@ Completed & Verified (Production Build 17/17 routes passed cleanly)
    - Added `vercel.json` with framework configuration, security headers, and caching rules.
    - Updated `.gitignore` with full Next.js App Router rules.
    - Pushed project repository to `https://github.com/lunacoderl/care-cure-physiotherapy-clinic.git` as collaborator.
+8. [x] Real Doctor Portraits, Favicon & Fullscreen Hero Banners:
+   - Copied and deployed real doctor portraits for Dr. K. Hareesh Patnaik (`APF 0318`) and Dr. K. Reshma Harish (`APF 0619`) to `public/images/doctors/` and `public/gallery/`.
+   - Created clinic vector favicon `public/icon.svg` & `app/icon.svg` featuring the active human motion silhouette and recovery arc; integrated into `Navbar.tsx`, `Footer.tsx`, and `layout.tsx`.
+   - Implemented `hero-bg-desktop.png` (1983x793) as edge-to-edge fullscreen desktop banner with zero overlapping elements.
+   - Implemented `hero-bg-mobile.png` (941x1255) as high-clarity vertical mobile banner with zero overlapping elements.
+   - Cleanly positioned all interactive conversion actions (WhatsApp booking, doctor phone numbers, live hours, Google 5.0 rating, body map) directly underneath the hero banners.
+   - Verified production build (18/18 static routes passed).
 
