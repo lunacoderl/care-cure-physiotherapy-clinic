@@ -71,13 +71,18 @@ export function AboutSection() {
             <div>
               {/* Doctor Header */}
               <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4 pb-6 border-b border-gray-100">
-                <div className="w-16 h-16 sm:w-20 sm:h-20 rounded-2xl bg-gradient-to-br from-[#0E7C73] to-[#0F9D8F] text-white flex items-center justify-center shadow-md shrink-0">
-                  <Stethoscope className="w-8 h-8 sm:w-10 sm:h-10 text-white" />
+                <div className="relative w-20 h-24 sm:w-24 sm:h-28 rounded-2xl overflow-hidden shadow-md border-2 border-[#0E7C73]/20 bg-white shrink-0">
+                  <Image
+                    src="/images/doctors/dr-hareesh-patnaik.png"
+                    alt="Dr. K. Hareesh Patnaik - Consultant Physio & Sports Injury Specialist"
+                    fill
+                    className="object-cover object-top"
+                  />
                 </div>
                 <div>
-                  <div className="flex items-center gap-2">
+                  <div className="flex flex-wrap items-center gap-2">
                     <span className="px-2.5 py-0.5 rounded-full text-[11px] font-extrabold bg-[#0E7C73]/10 text-[#0E7C73]">
-                      Senior Consultant
+                      Regd. No. APF 0318
                     </span>
                     <span className="text-xs text-gray-500 font-bold">12+ Yrs Experience</span>
                   </div>
@@ -85,10 +90,10 @@ export function AboutSection() {
                     Dr. K. Hareesh Patnaik
                   </h3>
                   <p className="text-xs font-bold text-[#0E7C73]">
-                    DPT, BPT, MS (Sports Medicine)
+                    DPT, BPT, MIAP, M.S. (Sports Medicine)
                   </p>
                   <p className="text-xs text-gray-600 font-medium mt-0.5">
-                    Senior Consultant Physio &amp; Sports Injury Specialist
+                    Consultant Physio &amp; Sport Injury Specialist
                   </p>
                 </div>
               </div>
@@ -99,6 +104,10 @@ export function AboutSection() {
                   Advanced Clinical Certifications:
                 </h4>
                 <ul className="space-y-1.5 text-xs text-gray-700">
+                  <li className="flex items-start gap-2">
+                    <CheckCircle className="w-3.5 h-3.5 text-[#0E7C73] shrink-0 mt-0.5" />
+                    <span>Regd. No. APF 0318 (Andhra Pradesh State)</span>
+                  </li>
                   <li className="flex items-start gap-2">
                     <CheckCircle className="w-3.5 h-3.5 text-[#0E7C73] shrink-0 mt-0.5" />
                     <span>MIAP Certified Cupping Therapist</span>
@@ -149,26 +158,31 @@ export function AboutSection() {
             </div>
           </div>
 
-          {/* Doctor 2: Dr. K.V.V. Reshma Patnaik */}
+          {/* Doctor 2: Dr. K. Reshma Harish */}
           <div className="bg-gradient-to-br from-[#F7FBFA] via-white to-[#F0F7F6] rounded-3xl p-6 sm:p-8 border border-[#0E7C73]/20 shadow-lg flex flex-col justify-between relative overflow-hidden">
             <div>
               {/* Doctor Header */}
               <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4 pb-6 border-b border-gray-100">
-                <div className="w-16 h-16 sm:w-20 sm:h-20 rounded-2xl bg-gradient-to-br from-[#0F9D8F] to-[#4DB8FF] text-white flex items-center justify-center shadow-md shrink-0">
-                  <Wind className="w-8 h-8 sm:w-10 sm:h-10 text-white" />
+                <div className="relative w-20 h-24 sm:w-24 sm:h-28 rounded-2xl overflow-hidden shadow-md border-2 border-[#0E7C73]/20 bg-white shrink-0">
+                  <Image
+                    src="/images/doctors/dr-reshma-patnaik.png"
+                    alt="Dr. K. Reshma Harish - Cardio-Respiratory & Orthopaedic Manual Therapist"
+                    fill
+                    className="object-cover object-top"
+                  />
                 </div>
                 <div>
-                  <div className="flex items-center gap-2">
+                  <div className="flex flex-wrap items-center gap-2">
                     <span className="px-2.5 py-0.5 rounded-full text-[11px] font-extrabold bg-[#4DB8FF]/15 text-[#0E7C73]">
-                      Consultant Specialist
+                      Regd. No. APF 0619
                     </span>
                     <span className="text-xs text-gray-500 font-bold">10+ Yrs Experience</span>
                   </div>
                   <h3 className="text-2xl font-extrabold text-[#0F2A2A] font-['Plus_Jakarta_Sans',sans-serif] mt-1">
-                    Dr. K.V.V. Reshma Patnaik
+                    Dr. K. Reshma Harish
                   </h3>
                   <p className="text-xs font-bold text-[#0E7C73]">
-                    BPT, MPT (CARDIO)
+                    BPT, MPT (Cardiopulmonary)
                   </p>
                   <p className="text-xs text-gray-600 font-medium mt-0.5">
                     Consultant: Physio &amp; Cardio-Respiratory Specialist
@@ -184,7 +198,11 @@ export function AboutSection() {
                 <ul className="space-y-1.5 text-xs text-gray-700">
                   <li className="flex items-start gap-2">
                     <CheckCircle className="w-3.5 h-3.5 text-[#0E7C73] shrink-0 mt-0.5" />
-                    <span>Master of Physiotherapy in Cardio-Respiratory (MPT Cardio)</span>
+                    <span>Regd. No. APF 0619 (Andhra Pradesh State)</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <CheckCircle className="w-3.5 h-3.5 text-[#0E7C73] shrink-0 mt-0.5" />
+                    <span>Master of Physiotherapy in Cardiopulmonary (MPT)</span>
                   </li>
                   <li className="flex items-start gap-2">
                     <CheckCircle className="w-3.5 h-3.5 text-[#0E7C73] shrink-0 mt-0.5" />

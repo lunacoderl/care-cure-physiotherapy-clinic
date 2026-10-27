@@ -21,8 +21,29 @@ interface GalleryItem {
 
 const galleryItems: GalleryItem[] = [
   {
+    id: "photo-doc-1",
+    title: "Dr. K. Hareesh Patnaik",
+    category: "Lead Consultant",
+    description: "DPT, BPT, MIAP, M.S. (Sports Medicine) · Regd. No. APF 0318 · Senior Consultant Physio & Sports Injury Specialist.",
+    src: "/images/doctors/dr-hareesh-patnaik.png",
+  },
+  {
+    id: "photo-doc-2",
+    title: "Dr. K. Reshma Harish",
+    category: "Consultant Specialist",
+    description: "BPT, MPT (Cardiopulmonary) · Regd. No. APF 0619 · Consultant: Physio & Cardio-Respiratory Specialist.",
+    src: "/images/doctors/dr-reshma-patnaik.png",
+  },
+  {
+    id: "photo-banner-main",
+    title: "Care And Cure Physiotherapy Clinic Official Overview",
+    category: "Clinic Overview",
+    description: "Official clinic banner with both consultants, medical credentials, and treatment focus areas.",
+    src: "/gallery/hero-bg-desktop.png",
+  },
+  {
     id: "photo-1",
-    title: "Care & Cure Clinic Treatment & Assessment Facility",
+    title: "Clinic Treatment & Assessment Facility",
     category: "Clinic Facility",
     description: "Equipped therapy rooms with specialized plinths, electrotherapy modalities, and spine assessment equipment at Malkapuram.",
     src: "/gallary/office.webp",
@@ -31,19 +52,12 @@ const galleryItems: GalleryItem[] = [
     id: "photo-2",
     title: "Active Hands-On Therapy Session",
     category: "Treatment",
-    description: "Dr. K. Hareesh Patnaik providing dedicated manual therapy and muscle mobilization to relieve pain and joint stiffness.",
+    description: "Dedicated manual therapy and muscle mobilization to relieve pain and joint stiffness.",
     src: "/gallary/patient.webp",
   },
   {
-    id: "photo-3",
-    title: "Senior Consultant Doctors & Clinical Specializations",
-    category: "Medical Team",
-    description: "Dr. K. Hareesh Patnaik (Sports Medicine & Rehab) and Dr. K.V.V. Reshma Patnaik (Cardio-Respiratory & Ortho Specialist).",
-    src: "/gallary/banner.webp",
-  },
-  {
     id: "photo-4",
-    title: "Comprehensive Clinical Services & Modalities",
+    title: "Clinical Services & Modality Schedule",
     category: "Services",
     description: "Official therapy schedule and clinical service board at our clinic opposite HPCL Main Gate.",
     src: "/gallary/services.webp",

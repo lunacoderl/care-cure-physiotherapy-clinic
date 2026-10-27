@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { siteConfig } from "@/content/site";
 import { servicesData } from "@/content/services";
 import { getWhatsAppLink } from "@/lib/whatsapp";
@@ -30,8 +31,14 @@ export function Footer() {
           {/* Col 1: Brand Info */}
           <div className="space-y-4">
             <Link href="/" className="flex items-center gap-3">
-              <div className="w-11 h-11 rounded-xl bg-gradient-to-br from-[#0E7C73] to-[#0F9D8F] flex items-center justify-center text-white shadow-lg shadow-teal-900/50">
-                <HeartPulse className="w-6 h-6" />
+              <div className="w-11 h-11 rounded-xl bg-white border border-teal-800/40 flex items-center justify-center p-1 shadow-lg shadow-teal-900/50 shrink-0">
+                <Image
+                  src="/icon.svg"
+                  alt="Care & Cure Logo"
+                  width={36}
+                  height={36}
+                  className="w-full h-full object-contain"
+                />
               </div>
               <div>
                 <span className="font-extrabold text-xl tracking-tight text-white font-['Plus_Jakarta_Sans',sans-serif]">

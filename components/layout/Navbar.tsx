@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { siteConfig } from "@/content/site";
 import { servicesData } from "@/content/services";
@@ -72,8 +73,15 @@ export function Navbar() {
               className="flex items-center gap-2.5 sm:gap-3 group focus:outline-none focus-visible:ring-2 focus-visible:ring-[#0E7C73] rounded-xl shrink-0"
               onClick={() => setMobileMenuOpen(false)}
             >
-              <div className="w-10 h-10 sm:w-11 sm:h-11 rounded-xl bg-gradient-to-br from-[#0E7C73] to-[#0F9D8F] flex items-center justify-center text-white shadow-md shadow-[#0E7C73]/20 group-hover:scale-105 transition-transform duration-200 shrink-0">
-                <HeartPulse className="w-5 h-5 sm:w-6 sm:h-6" />
+              <div className="w-10 h-10 sm:w-11 sm:h-11 rounded-xl bg-white border border-[#0E7C73]/20 flex items-center justify-center p-1 shadow-sm group-hover:scale-105 transition-transform duration-200 shrink-0">
+                <Image
+                  src="/icon.svg"
+                  alt="Care & Cure Logo"
+                  width={36}
+                  height={36}
+                  className="w-full h-full object-contain"
+                  priority
+                />
               </div>
               <div>
                 <div className="flex items-center gap-1.5 sm:gap-2">
@@ -262,8 +270,14 @@ export function Navbar() {
               className="flex items-center gap-2.5"
               onClick={() => setMobileMenuOpen(false)}
             >
-              <div className="w-9 h-9 rounded-xl bg-gradient-to-br from-[#0E7C73] to-[#0F9D8F] flex items-center justify-center text-white shadow-sm">
-                <HeartPulse className="w-5 h-5" />
+              <div className="w-9 h-9 rounded-xl bg-white border border-[#0E7C73]/20 flex items-center justify-center p-1 shadow-sm shrink-0">
+                <Image
+                  src="/icon.svg"
+                  alt="Care & Cure Logo"
+                  width={32}
+                  height={32}
+                  className="w-full h-full object-contain"
+                />
               </div>
               <div>
                 <span className="font-extrabold text-base tracking-tight text-[#0F2A2A] font-['Plus_Jakarta_Sans',sans-serif]">

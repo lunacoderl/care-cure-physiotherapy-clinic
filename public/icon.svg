@@ -1,5 +1,27 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none">
-  <rect width="100" height="100" rx="24" fill="#0E7C73"/>
-  <path d="M50 82C50 82 22 62.8 22 40.5C22 29.2 30.5 20.5 41 20.5C46.8 20.5 50 24 50 24C50 24 53.2 20.5 59 20.5C69.5 20.5 78 29.2 78 40.5C78 62.8 50 82 50 82Z" fill="#0F9D8F"/>
-  <path d="M26 48H38L44 32L54 64L62 42L68 48H74" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" fill="none">
+  <!-- Subtle circular background for high contrast across dark and light tabs -->
+  <circle cx="64" cy="64" r="60" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="2"/>
+  
+  <!-- Clinic Recovery Swoosh Arc (Green/Teal gradient) -->
+  <path d="M26 78 C22 55, 34 33, 56 24 C44 34, 38 48, 40 64 C42 80, 52 92, 72 98 C50 102, 32 94, 26 78 Z" fill="url(#greenArc)"/>
+  
+  <!-- Dynamic Striding Figure (Active Blue/Teal) -->
+  <!-- Head -->
+  <circle cx="67" cy="38" r="9.5" fill="#0284C7"/>
+  <!-- Torso & Forward Arm -->
+  <path d="M52 56 C54 50, 62 47, 72 50 C79 52, 94 48, 97 50 C98 52, 92 60, 81 60 C73 60, 68 64, 66 70 L60 84 L52 80 L57 68 C53 68, 50 62, 52 56 Z" fill="#0284C7"/>
+  <!-- Back Arm -->
+  <path d="M56 52 C50 50, 42 55, 38 62 C37 63, 40 65, 43 64 C47 61, 52 58, 56 55 Z" fill="#0369A1"/>
+  <!-- Forward Leg -->
+  <path d="M60 84 L76 102 C78 104, 82 103, 85 101 C86 99, 83 96, 78 92 L68 76 Z" fill="#0284C7"/>
+  <!-- Trailing Leg (Bent in motion) -->
+  <path d="M62 76 C55 76, 48 78, 44 86 C42 89, 44 91, 47 90 C51 86, 56 83, 62 82 Z" fill="#0369A1"/>
+
+  <defs>
+    <linearGradient id="greenArc" x1="22" y1="24" x2="72" y2="102" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#84CC16"/>
+      <stop offset="0.6" stop-color="#10B981"/>
+      <stop offset="1" stop-color="#0E7C73"/>
+    </linearGradient>
+  </defs>
 </svg>

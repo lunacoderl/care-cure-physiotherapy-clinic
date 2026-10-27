@@ -26,11 +26,12 @@ export const siteConfig = {
   doctors: [
     {
       name: "Dr. K. Hareesh Patnaik",
-      title: "Senior Consultant Physio & Sports Injury Specialist",
-      qualifications: "DPT, BPT, MS (Sports Medicine)",
+      title: "Consultant Physio & Sport Injury Specialist",
+      qualifications: "DPT, BPT, MIAP, M.S. (Sports Medicine)",
       role: "Lead Consultant & Sports Rehabilitation Director",
       experienceYears: 12,
       certifications: [
+        "Regd. No. APF 0318",
         "MIAP Certified Cupping Therapist",
         "Certified Orthopaedic Manual Therapist",
         "Certified Dry Needling Therapist",
@@ -45,16 +46,17 @@ export const siteConfig = {
         "Orthopaedic Manual Therapy",
       ],
       bio: "With advanced training in Sports Medicine and clinical rehabilitation, Dr. K. Hareesh Patnaik brings comprehensive expertise in cutting-edge manual therapy, dry needling, cupping, and neurological recovery. Known for his honest diagnostic explanations and patient warmth.",
-      image: "/gallary/banner.webp",
+      image: "/images/doctors/dr-hareesh-patnaik.png",
     },
     {
-      name: "Dr. K.V.V. Reshma Patnaik",
+      name: "Dr. K. Reshma Harish",
       title: "Consultant: Physio & Cardio-Respiratory Specialist",
-      qualifications: "BPT, MPT (CARDIO)",
+      qualifications: "BPT, MPT (Cardiopulmonary)",
       role: "Cardio-Respiratory & Orthopaedic Rehabilitation Consultant",
       experienceYears: 10,
       certifications: [
-        "Master of Physiotherapy in Cardio-Respiratory Conditions (MPT Cardio)",
+        "Regd. No. APF 0619",
+        "Master of Physiotherapy in Cardiopulmonary (MPT)",
         "Certified Orthopaedic Manual Therapist",
         "Pulmonary & Cardiac Exercise Prescription",
         "Geriatric & Post-Surgical Mobilization",
@@ -66,8 +68,8 @@ export const siteConfig = {
         "Women's & Geriatric Health",
         "Orthopaedic Manual Therapy",
       ],
-      bio: "Specializing in cardiopulmonary rehabilitation and orthopaedic manual therapy, Dr. K.V.V. Reshma Patnaik provides specialized recovery programs for patients with respiratory compromise, post-operative weakness, cardiac recovery, and chronic joint restrictions.",
-      image: "/gallary/banner.webp",
+      bio: "Specializing in cardiopulmonary rehabilitation and orthopaedic manual therapy, Dr. K. Reshma Harish provides specialized recovery programs for patients with respiratory compromise, post-operative weakness, cardiac recovery, and chronic joint restrictions.",
+      image: "/images/doctors/dr-reshma-patnaik.png",
     },
   ] as DoctorProfile[],
   // Backwards compatibility pointer for single doctor references
