@@ -14,7 +14,7 @@ export function TrustStrip() {
     },
     {
       icon: Users,
-      value: "3,500+",
+      value: "6,000+",
       label: "Patients Recovered",
       subtext: "Malkapuram & Visakhapatnam",
       color: "text-[#0E7C73]",
@@ -22,7 +22,7 @@ export function TrustStrip() {
     },
     {
       icon: Award,
-      value: "12+ Years",
+      value: "10+ Years",
       label: "Clinical Experience",
       subtext: "Neuro & Ortho Specialty",
       color: "text-[#4DB8FF]",
